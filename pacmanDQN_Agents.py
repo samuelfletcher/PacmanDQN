@@ -27,9 +27,9 @@ from DQN import *
 
 params = {
     # Model backups
-    'load_file': None,
-    'save_file': None,
-    'save_interval' : 10000, 
+    'load_file': "saves/model-Sam_90497_4960",
+    'save_file': "Sam",
+    'save_interval': 50000,
 
     # Training parameters
     'train_start': 5000,    # Episodes before training starts

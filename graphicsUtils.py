@@ -321,6 +321,18 @@ def _clear_keys(event=None):
     _got_release = None
 
 
+# Sam testing another version of this def:
+# def keys_pressed(d_o_e=None,
+#                  d_w=None):
+#     if d_o_e is None:
+#         d_o_e = _root_window.dooneevent(d_o_e)
+#     if d_w is None:
+#         d_w = tkinter._tkinter.DONT_WAIT
+#     d_o_e(d_w)
+#     if _got_release:
+#         d_o_e(d_w)
+#     return list(_keysdown.keys())
+
 def keys_pressed(d_o_e=None,
                  d_w=tkinter._tkinter.DONT_WAIT):
 
